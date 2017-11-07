@@ -1,7 +1,7 @@
 ---
 name: Chaochao Lu
 pic: chaochao-lu
-start: 2020
+start: 2019
 social:
   - title: home
     url: http://luchaochao.me/
