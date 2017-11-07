@@ -1,0 +1,28 @@
+# Site settings
+title: "Cambridge Tübingen Meeting"
+description: "20 - 24 November 2017, Mallorca"
+
+# Collections to include
+collections:
+  - about
+  - schedule
+  - participants
+
+plugins:
+  - jekyll-feed
+
+# Social networks usernames
+social:
+  - title: github
+    url: https://github.com/camtue-meeting
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Niki Kilbertus
+  - line: Spemannstr. 34
+  - line: 72076 Tübingen
+  - line: Germany
+
+# Build settings
+markdown: kramdown
+permalink: pretty

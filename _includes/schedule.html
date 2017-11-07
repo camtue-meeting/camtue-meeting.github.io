@@ -1,0 +1,39 @@
+<section id="schedule" class="bg-dark-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading"><a name="schedule" class="anchor"></a>Schedule</h2>
+      </div>
+    </div>
+    {% for day in site.schedule %}
+    <h3 class="section-subheading text-muted">{{ day.date | date: "%A" }}, {{ day.date | date_to_long_string }}</h3>
+    {% if day.only %}
+      <h4 class="section-subheading text-muted">{{ day.only }}</h4>
+    {% else %}
+    <div class="table-wrapper">
+      <table>
+        {% for slot in day.slots %}
+        <tr>
+          <td><b>{{ slot.time }}</b></td>
+          <td>
+            {% if slot.time %}
+            {{ slot.title }}
+            {% else %}
+            <b>{{ slot.title }}</b>
+            {% endif %}
+          </td>
+          <td>
+            {% if slot.url %}
+              <a href={{ slot.url }}>{{ slot.author }}</a>
+            {% else %}
+              {{ slot.author }}
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>
