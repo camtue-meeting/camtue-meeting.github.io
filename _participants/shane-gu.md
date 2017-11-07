@@ -1,7 +1,7 @@
 ---
 name: Shane Gu
 pic: shane-gu
-start: 2014
+start: 2018
 social:
   - title: home
     url: http://sg717.user.srcf.net/

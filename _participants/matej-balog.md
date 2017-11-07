@@ -1,7 +1,7 @@
 ---
 name: Matej Balog
 pic: matej-balog
-start: 2015
+start: 2019
 social:
   - title: home
     url: http://matejbalog.eu/

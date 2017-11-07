@@ -1,7 +1,7 @@
 ---
 name: Niki Kilbertus
 pic: niki-kilbertus
-start: 2016
+start: 2020
 social:
   - title: home
     url: http://mlg.eng.cam.ac.uk/?portfolio=niki-kilbertus

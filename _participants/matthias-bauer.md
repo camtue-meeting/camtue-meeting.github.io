@@ -1,7 +1,7 @@
 ---
 name: Matthias Bauer
 pic: matthias-bauer
-start: 2015
+start: 2019
 social:
   - title: home
     url: http://mlg.eng.cam.ac.uk/?portfolio=matthias-bauer
