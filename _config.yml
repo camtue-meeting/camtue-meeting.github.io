@@ -7,6 +7,7 @@ collections:
   - about
   - schedule
   - participants
+  - report
 
 plugins:
   - jekyll-feed
@@ -19,7 +20,7 @@ social:
 # Postal address (add as many lines as necessary)
 address:
   - line: Niki Kilbertus
-  - line: Spemannstr. 34
+  - line: Max-Planck-Ring 4
   - line: 72076 Tübingen
   - line: Germany
 
